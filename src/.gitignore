@@ -1,0 +1,7 @@
+
+# ignore object code and temporaries
+*.o
+*.so
+*.h~
+*.cpp~
+*.inl~

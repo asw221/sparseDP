@@ -1,0 +1,15 @@
+
+useDynLib (sparseDP)
+
+import (coda)
+import (RcppEigen)
+importFrom (Rcpp, sourceCpp)
+
+## exportPattern("ˆ[[:alpha:]]+")
+export ("sdplm", "coef.sdplm", "sigma.sdplm"
+        )
+
+## export ()
+## export ()
+## exportClasses ()
+## exportMethods ()

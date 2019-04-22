@@ -1,0 +1,20 @@
+Package: sparseDP
+Version: 0.1
+Date: 2019-4-17
+title: Sparse Dirichlet-Process Regression
+Description: Fits a linear regression model with an approximately sparse
+  Dirichlet-Process prior on the regression coefficients for automatic
+  sparse structure learning and inference.
+Author: Andrew Whiteman <awhitem@umich.edu>
+Maintainer: Andrew Whiteman <awhitem@umich.edu>
+License: GPL (>= 2)
+Depends: R (>= 3.0.2),
+	 coda,
+	 Rcpp (>= 0.12.17),
+	 RcppEigen (>= 0.3.3.4.0)
+LinkingTo: Rcpp,
+	   RcppEigen
+Imports: coda
+Suggests: devtools,
+	  testthat
+RoxygenNote: 6.0.1

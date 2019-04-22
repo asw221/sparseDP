@@ -1,0 +1,20 @@
+
+
+## With OpenMP:
+PKG_CXXFLAGS = -Wno-ignored-attributes -DNDEBUG -O3 -Xpreprocessor -fopenmp -lomp -std=c++17
+
+## If the package does not compile out of the box on your system, your compiler
+## may not support OpenMP. Try removing the OpenMP preprocessor directives by
+## commenting out the line above, and uncommenting the line below. The program may
+## not run quite as fast, but output should be the same. The 2017 C++ standard is
+## necessary to get the full functionality of the <random> library.
+##
+
+## Without OpenMP:
+## PKG_CXXFLAGS = -Wno-ignored-attributes -DNDEBUG -O3 -std=c++17
+
+
+
+####
+## Debug version:
+## PKG_CXXFLAGS = -std=c++17 -O0
