@@ -29,17 +29,14 @@ clustering. For a general regression problem, the prior hierarchy is
 laid out below in a stick breaking process representation.
 
 
-<img src="https://latex.codecogs.com/svg.latex?\beta_j&space;|&space;\omega,&space;\theta^*&space;\sim&space;\sum_{h&space;=&space;1}^\infty&space;\omega_h&space;\delta_{\theta^*_h}(\beta_j)"
-title="\beta_j | \omega, \theta^* \sim \sum_{h = 1}^\infty \omega_h
-\delta_{\theta^*_h}(\beta_j)"/>
+<img src="https://latex.codecogs.com/svg.latex?\large&space;\beta_j&space;|&space;\omega,&space;\theta^*&space;\sim&space;\sum_{h&space;=&space;1}^\infty&space;\omega_h&space;\delta_{\theta^*_h}(\beta_j)" title="\large \beta_j | \omega, \theta^* \sim \sum_{h = 1}^\infty \omega_h \delta_{\theta^*_h}(\beta_j)" />
 
 <img src="https://latex.codecogs.com/svg.latex?\large&space;\theta^*_h&space;|&space;\tau^{2},&space;\lambda_h^{2}&space;\sim&space;\mathcal{N}(0,&space;\tau^{2}&space;\lambda_h^{2})"
 title="\large \theta^*_h | \tau^{2}, \lambda_h^{2} \sim \mathcal{N}(0,
 \tau^{2} \lambda_h^{2})" />
 
-<img src="https://latex.codecogs.com/svg.latex?\omega&space;\sim&space;\text{stick}(\alpha)&space;\qquad&space;\lambda_h&space;\sim&space;C^&plus;(0,&space;1)&space;\qquad&space;\tau&space;\sim&space;\pi(\tau)"
-title="\omega \sim \text{stick}(\alpha) \qquad \lambda_h \sim C^+(0,
-1) \qquad \tau \sim \pi(\tau)" />
+<img src="https://latex.codecogs.com/svg.latex?\large&space;\omega&space;\sim&space;\text{stick}(\alpha),&space;\quad&space;\lambda_h&space;\sim&space;C^&plus;(0,&space;1),&space;\quad&space;\tau&space;\sim&space;\pi(\tau)" title="\large \omega \sim \text{stick}(\alpha), \quad \lambda_h \sim C^+(0, 1), \quad \tau \sim \pi(\tau)" />
+
 
 Where &delta;<sub>z</sub>(&middot;) is the Dirac measure centered on
 z, and C<sup>+</sup>(&mu;, &gamma;) denotes the half-Cauchy density

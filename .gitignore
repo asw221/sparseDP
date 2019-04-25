@@ -10,6 +10,10 @@ bin/*
 _tmp
 _src*
 
+# Ignore temporary files
+*.md~
+*~
+
 
 
 
