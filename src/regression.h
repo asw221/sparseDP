@@ -10,6 +10,9 @@
 #include "sparseDP.h"
 
 
+#ifndef _REGRESSION_
+#define _REGRESSION_
+
 
 const double _EPS_ = 1e-8;
 
@@ -193,7 +196,7 @@ std::vector<double> gaussianKernelClusters(
 };
 
 
-
+#endif  // _REGRESSION_
 
 
 

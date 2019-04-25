@@ -15,6 +15,9 @@
 
 //  - Blocked Gibbs sampler
 //  - Horseshoe prior on stick-breaking atoms, \theta
+//  - Reconsider the design at some point---not overly happy
+//    with the generalizability of updating the atoms
+
 
 class SparseBrokenStick {
 private:
@@ -43,6 +46,7 @@ private:
   // );
 
   void setGammaParams(const double &shape, const double &rate);
+
   
 public:
 
@@ -194,7 +198,7 @@ void SparseBrokenStick::update(
       // _atoms[h] = std::sqrt(1 / _precision) * _StdNormal_(urng);
     }
 
-    // updae _sumAtomsSq
+    // update _sumAtomsSq
     sumThetaSq += _atoms[h] * _atoms[h] / _lambdaSq[h];
   }
 

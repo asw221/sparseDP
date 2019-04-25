@@ -5,7 +5,7 @@
 #include "regression.h"
 
 
-
+// --- Sparse Dirichlet Process Linear Model -----------------------------------
 extern "C" SEXP sdplm_Cpp(
   const SEXP X_,
   const SEXP y_,
