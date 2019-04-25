@@ -29,7 +29,7 @@ clustering. For a general regression problem, the prior hierarchy is
 laid out below in a stick breaking process representation.
 
 
-<div style="text-align:center"><img src="https://latex.codecogs.com/svg.latex?\large&space;\beta_j&space;|&space;\omega,&space;\theta^*&space;\sim&space;\sum_{h&space;=&space;1}^\infty&space;\omega_h&space;\delta_{\theta^*_h}(\beta_j)" title="\large \beta_j | \omega, \theta^* \sim \sum_{h = 1}^\infty \omega_h \delta_{\theta^*_h}(\beta_j)" /></div>
+<p align="center"><img src="https://latex.codecogs.com/svg.latex?\large&space;\beta_j&space;|&space;\omega,&space;\theta^*&space;\sim&space;\sum_{h&space;=&space;1}^\infty&space;\omega_h&space;\delta_{\theta^*_h}(\beta_j)" title="\large \beta_j | \omega, \theta^* \sim \sum_{h = 1}^\infty \omega_h \delta_{\theta^*_h}(\beta_j)" /></p>
 
 <img src="https://latex.codecogs.com/svg.latex?\large&space;\theta^*_h&space;|&space;\tau^{2},&space;\lambda_h^{2}&space;\sim&space;\mathcal{N}(0,&space;\tau^{2}&space;\lambda_h^{2})"
 title="\large \theta^*_h | \tau^{2}, \lambda_h^{2} \sim \mathcal{N}(0,
